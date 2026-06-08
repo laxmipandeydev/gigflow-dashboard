@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API =
-  "http://localhost:5000/api/auth";
+  const API =
+  "https://gigflow-dashboard-eulr.onrender.com/api/auth";
 
 export const loginUser = async (
   email: string,
